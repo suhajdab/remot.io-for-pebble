@@ -2,11 +2,11 @@ var UI = require('ui');
 
 // Create a Card with title and subtitle
 var card = new UI.Card({
-  title:'remot.io',
-  subtitle:'Fetching...'
+  title:'remot.io'
+  //subtitle:'Fetching...'
 });
 
-card.body('This is the content of my card!');
+card.body('Control your html presentation from your watch!');
 
 // Display the Card
 card.show();
